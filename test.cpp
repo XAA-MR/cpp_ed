@@ -1,6 +1,15 @@
 #include <iostream>
-
+using namespace std;
 int main(){
-	std::cout << "Hello World!\n";
-	return 0;
+	while(true){
+	double a,b;
+	char c;
+	cin>>a>>c>>b;
+	switch(c){
+		case '+':cout<<a+b; break;
+		case '-':cout<<a-b;break;
+		case '*':cout<<a*b; break;
+		case '/':cout<<a/b; break;
+	}
+	cout<<'\n';}
 }
